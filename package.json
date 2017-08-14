@@ -1,5 +1,5 @@
 {
-  "name": "pluralsight-redux-starter",
+  "name": "react-redux-es6-template",
   "version": "0.0.1",
   "description": "Starter kit for React and Redux Pluralsight course by Cory House",
   "scripts": {
