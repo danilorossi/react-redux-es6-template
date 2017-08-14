@@ -1,0 +1,7 @@
+{
+    "createFilesWithPattern": "__PascalCase_name__"
+}
+// "createFilesInFolderWithPattern": "__kebabCase_name__"
+// to create file inside Folder
+
+// https://github.com/reesemclean/blueprint/blob/master/src/fileCreator.ts
