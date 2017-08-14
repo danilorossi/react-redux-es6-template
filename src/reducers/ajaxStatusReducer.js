@@ -9,7 +9,10 @@ export default function ajaxStatusReducer(state = initialState.numAjaxCallsInPro
 
   if(action.type == types.BEGIN_AJAX_CALL) {
     return state + 1;
-  } else if( actionTypeEndsInSuccess(action.type)) {
+  } else if(
+    action.type == types.AJAX_CALL_ERROR ||
+    actionTypeEndsInSuccess(action.type)
+  ) {
     // NOTE: asuming that each *_SUCCESS
     // indicates a successful Ajax call notification
     return state - 1;
