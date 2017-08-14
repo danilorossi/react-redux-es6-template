@@ -23,7 +23,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
         defaultOption="Select Author"
         value={course.authorId}
         onChange={onChange}
-        options={[]}
+        options={allAuthors}
         error={errors.authorId} />
 
       <TextInput
