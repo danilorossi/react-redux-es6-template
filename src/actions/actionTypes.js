@@ -5,3 +5,7 @@ export const CREATE_COURSE_SUCCESS = 'SAVE_COURSE_SUCCESS';
 
 // Authors
 export const LOAD_AUTHORS_SUCCESS = 'LOAD_AUTHORS_SUCCESS';
+
+// Ajax
+export const BEGIN_AJAX_CALL = 'BEGIN_AJAX_CALL';
+
