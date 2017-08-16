@@ -4,6 +4,8 @@ import colors from 'colors';
 
 /*eslint-disable no-console*/
 
+// check slingshot for other tools
+
 fs.readFile('src/index.html', 'utf8', (err, markup) => {
   if(err) {
     return console.log(err);
