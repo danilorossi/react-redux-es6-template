@@ -1,3 +1,4 @@
+/*es-lint-disable import/default*/
 import 'babel-polyfill'; // Babel can't transpile all ES6 features (or choose single polyfills for the specific features you use)!
 import React from 'react';
 import { render } from 'react-dom'; // In React 1.4 react-dom was split off from React
