@@ -9,6 +9,7 @@ export function loadAuthorsSuccess(authors) {
   };
 }
 
+// TODO await?
 export function loadAuthors() {
   return dispatch => {
     dispatch(beginAjaxCall());
